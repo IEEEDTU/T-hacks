@@ -97,9 +97,10 @@ p {
   margin: 0px; }
 .sc
 {
-    width: available;
-    height: available;
-    margin: 5% 5% 5% 5%;
+    object-fit:contain;
+    width:available;
+    align-content: center;
+    margin-top: 5%;
 }
 .bg_cover {
   background-position: center center;
