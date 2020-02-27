@@ -97,10 +97,13 @@ p {
   margin: 0px; }
 .sc
 {
-    object-fit:contain;
-    width:available;
-    align-content: center;
+    object-fit: contain;
+    alignment: center;
     margin-top: 5%;
+}
+#ctim{
+    height: 120px;
+    margin-left: 25%;
 }
 .bg_cover {
   background-position: center center;
@@ -412,12 +415,8 @@ p {
               background-image: -webkit-linear-gradient(right, #0067f4, #2bdbdc);
               background-image: -o-linear-gradient(right, #0067f4, #2bdbdc);
               background-image: linear-gradient(to left, #0067f4, #2bdbdc);
-              background-position: left center;
-              -webkit-transition: all none ease-out 0s;
-              -moz-transition: all none ease-out 0s;
-              -ms-transition: all none ease-out 0s;
-              -o-transition: all none ease-out 0s;
-              transition: all none ease-out 0s; }
+              background-position: left center;}
+
           .header-hero .header-content .header-btn li a.main-btn.btn-two:hover {
             -webkit-box-shadow: 0 3px 25px 0 rgba(0, 0, 0, 0.16);
             -moz-box-shadow: 0 3px 25px 0 rgba(0, 0, 0, 0.16);
